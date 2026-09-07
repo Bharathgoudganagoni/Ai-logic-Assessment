@@ -1,4 +1,4 @@
-function maxArea(height) {
+function Area(height) {
     let left = 0;
     let right = height.length - 1;
     let max = 0;
@@ -22,4 +22,4 @@ function maxArea(height) {
 }
 
 const height = [1, 8, 6, 2, 5, 4, 8, 3, 7];
-console.log(maxArea(height));
+console.log(Area(height));
