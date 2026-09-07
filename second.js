@@ -12,6 +12,7 @@ function majorityElement(nums) {
         } else {
             count--;
         }
+        
     }
 
     return candidate;
