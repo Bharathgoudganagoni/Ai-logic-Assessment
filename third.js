@@ -17,7 +17,6 @@ function maximumSwap(num) {
             }
         }
     }
-
     return num;
 }
 
