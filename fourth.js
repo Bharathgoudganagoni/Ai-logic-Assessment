@@ -11,7 +11,6 @@ function maxArea(height) {
         if (area > max) {
             max = area;
         }
-
         if (height[left] < height[right]) {
             left++;
         } else {
